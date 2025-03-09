@@ -12,5 +12,17 @@ class CarController {
         $stmt = $this->pdo->query("SELECT * FROM cars");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function getCarsById() {
+       
+    }
+    public function createCars() {
+       
+    }
+    public function updateCars() {
+       
+    }
+    public function deleteCars() {
+       
+    }
 }
 ?>
